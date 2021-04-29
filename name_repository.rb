@@ -1,4 +1,4 @@
-class Names
+class NamesRepository
   def initialize
      @names = []
   end

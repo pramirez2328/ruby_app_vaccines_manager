@@ -1,11 +1,11 @@
 class Name
   attr_accessor :name, :location, :vaccinated
   attr_reader :id
-  def initialize(name, location, id, vaccinated = false)
+  def initialize(name, location, vaccinated)
     @id = 1
     @name = name
     @location = location
-    @vacinnated = vaccinated
+    @vacinnated = vaccinated || false
   end
 
   def is_vaccinated?
